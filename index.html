@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tailwind Css</title>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
   <header class="md:mx-14 md:py-4 py-2 px-2">
@@ -34,32 +35,33 @@
   
   <!-- Hero Section -->
 
-  <section> 
-    <!-- Hero Section-->
-    <div class="grid grid-cols-12 md:grid-cols-2 gap-8 max-w-screen-2xl mx-auto mt-6 ">
-     
+  <section>
+    <!-- Hero Section -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-screen-2xl mx-auto mt-6 px-6 sm:px-8">
+  
       <!-- Left Side -->
       <div class="text-center md:text-left py-28">
- 
-       <div class="text-2xl">
-         <p class="text-[#072125] mb-7">Discover <span class="text-[#F44335]">-</span> Interact <span class="text-[#F44335]">-</span> Engage </p>
-       </div>
+        <div class="text-2xl">
+          <p class="text-[#072125] mb-7">Discover <span class="text-[#F44335]">-</span> Interact <span class="text-[#F44335]">-</span> Engage</p>
+        </div>
+        
         <!-- Heading -->
         <h1 class="text-4xl text-[#072125] sm:text-5xl md:text-7xl font-bold mb-4">
-         Google <br>
-         <span class="text-[#F44335] underline">IT Support</span><br> Certificate
+          Google <br>
+          <span class="text-[#F44335] underline">IT Support</span><br> Certificate
         </h1>
+        
         <!-- Paragraph -->
         <p class="text-lg text-[#072125] md:text-2xl font-light mb-6 mt-20">
           Discover the best content, news, and inspiration. Join us today and explore amazing things tailored
           just for you.
         </p>
-        
+  
         <!-- Numbers -->
-        <div class="grid grid-cols-2 sm:grid-cols-5 mb-8 mt-10">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 mb-8 mt-10">
           <div class="text-2xl sm:text-3xl font-semibold">
             <p class="text-[#00FF84]">438</p>
-            <p class="text-sm text-[#2D3142]">Videos </p>
+            <p class="text-sm text-[#2D3142]">Videos</p>
           </div>
           <div class="text-2xl sm:text-3xl font-semibold">
             <p class="text-[#00FF84]">151</p>
@@ -71,29 +73,30 @@
           </div>
           <div class="text-2xl sm:text-3xl font-semibold">
             <p class="text-[#00FF84]">24</p>
-            <p class="text-sm text-[#2D3142]"> Exercises</p>
+            <p class="text-sm text-[#2D3142]">Exercises</p>
           </div>
           <div class="text-2xl sm:text-3xl font-semibold">
-           <p class="text-[#00FF84]">4</p>
-           <p class="text-sm text-[#2D3142]">Assigments</p>
-         </div>
+            <p class="text-[#00FF84]">4</p>
+            <p class="text-sm text-[#2D3142]">Assignments</p>
+          </div>
         </div>
- 
+  
         <!-- Buttons -->
         <div class="flex justify-center md:justify-start space-x-4">
           <a href="#"
             class="bg-[#F44335] hover:bg-white hover:text-[#072125] py-3 px-6 hover:border rounded-md text-lg transition duration-300">Sign up</a>
-            <a href="#"
+          <a href="#"
             class="bg-white text-black hover:bg-[#F44335] hover:text-white py-3 px-6 border rounded-md text-lg transition duration-300">Learn more</a>
         </div>
       </div>
- 
+  
       <!-- Right Side (Image) -->
-      <div class=" md:block">
-        <img src="img/hero.png" alt="Hero Image" class="w-full h-auto object-cover">
+      <div class="md:block">
+        <img src="img/hero.png" alt="Hero Image" class="w-full h-auto object-cover rounded-md">
       </div>
     </div>
- </section>
+  </section>
+  
  
   <!-- 4 Column Section -->
    
@@ -126,6 +129,7 @@
   </section>
  
     <!-- skill Section -->
+     
     <section class="py-12 px-6 bg-gray-50  ">
       <div class="max-w-screen-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
   
@@ -134,7 +138,7 @@
           <h2 class="text-3xl font-bold text-gray-800">What you will learn</h2>
           
           <!-- 2nd Column: Horizontal Line -->
-          <hr class="border-t-2 border-gray-300 mb-2">
+          <hr class="border-t-2 border-red-300 mb-2">
           
           <ul class="space-y-4">
             <li class="flex items-center space-x-3">
@@ -166,7 +170,7 @@
           <!-- 2nd Column: Heading -->
           <h2 class="text-2xl font-semibold text-gray-800">Skills you will gain </h2>
           
-          <hr class="border-t-2 border-gray-300 mb-4">
+          <hr class="border-t-2 border-red-300 mb-4">
           
           <!-- 4th Column: Tags -->
           <div class="flex flex-wrap gap-2">
@@ -184,10 +188,42 @@
             <span class="border border-red-400 rounded-full px-4 py-2 text-[#181818] cursor-pointer hover:bg-red-300 hover:text-white transition hover:scale-105 delay-75">Cloud Computing</span>
           </div>
         </div>
-  
       </div>
     </section>
 
+    <!-- Certificate Section  -->
 
+    <section class="py-12 px-6 bg-gray-50  ">
+      <div class="max-w-screen-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+  
+        <!-- Left Side -->
+        <div class="grid grid-cols-1 gap-6 border rounded-lg shadow-lg p-6 bg-white">
+          <h3 class="text-3xl font-bold text-gray-800">Jobs Assocaited with Certificate </h3>
+          
+          <!-- Horizontal Line -->
+          <hr class="border-t-2 border-red-300">
+
+          <div class="flex items-center justify-between">
+            <div class="text-xl">
+              <p><i class="fa-solid fa-arrow-right px-1 mb-5"></i>Database administrator</p>
+              <p><i class="fa-solid fa-arrow-right px-1 mb-5"></i>Tech support specialist</p>
+              <p><i class="fa-solid fa-arrow-right px-1 mb-5"></i>IT specialist</p>
+              <p><i class="fa-solid fa-arrow-right px-1 mb-5"></i>Systems analyst</p>
+              <p><i class="fa-solid fa-arrow-right px-1 mb-5"></i>Network engineer</p>
+            </div>
+            <div class="text-xl">
+              <p><i class="fa-solid fa-arrow-right px-1 mb-5"></i>Help desk technician</p>
+              <p><i class="fa-solid fa-arrow-right px-1 mb-5"></i>IT support spcialist</p>
+              <p><i class="fa-solid fa-arrow-right px-1 mb-5"></i>IT technician</p>
+              <p><i class="fa-solid fa-arrow-right px-1 mb-5"></i>Computer user specialist</p>
+              <p><i class="fa-solid fa-arrow-right px-1 mb-5"></i>IT assitant </p>
+            </div>
+          </div>
+        </div>
+        <!-- Right Image -->
+        <div class="grid grid-cols-1 gap-6">
+          <img src="img/IT Support 1.png" alt="" class=" w-full h-auto">
+        </div>
+      </section>
 </body>
 </html>
